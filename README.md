@@ -1,6 +1,8 @@
 
 # Sierra
 
+> **Maintained Fork (`martings/Sierra`):** Forked from [`VCCRI/Sierra`](https://github.com/VCCRI/Sierra) (GPL-3.0). Adds native `strandMode` (`0` unstranded, `1` forward [default], `2` reverse for 10x 3' v1 / 5' chemistries) across `CountPeaks`, `FindPeaks`, `SplitBam`, and `PlotCoverage`, automated tests, and GHCR container builds. All original authorship and citation remain with Ralph Patrick, David Humphreys, Kitty Lo, and co-authors (Genome Biology, 2020).
+
 Sierra is an R package designed for detecting differential transcript usage from polyA-captured single cell (sc)RNA-seq data. Sierra identifies coordinates of read pileups (i.e. peaks) and performs UMI counting, followed by differential usage analysis between defined cell populations. Please read the vignette for a demonstration on how to use this software.
 
 ## Installation
